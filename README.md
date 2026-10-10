@@ -2,6 +2,8 @@
 
 EI 会议论文配套代码，从原始 `cqx-code-generation` 工程整理。
 
+论文全文：[CAFCL 论文 PDF](paper/CAFCL.pdf)。
+
 ## 文件结构
 
 - `experiments/prepare_data.py`：数据筛选、复杂度评分和三阶段课程数据生成。
