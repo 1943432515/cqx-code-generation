@@ -1,0 +1,61 @@
+# ============================================================
+# 可 git clone 还原的外部仓库
+# ============================================================
+verl/
+
+# ============================================================
+# 运行时产物
+# ============================================================
+
+# 数据（prepare_data.py 生成）
+experiments/data/
+
+# 训练 checkpoint
+experiments/checkpoints/
+experiments/Qwen3-0.6B
+
+# 评测结果
+experiments/eval_results/
+
+# ============================================================
+# Python / 通用
+# ============================================================
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.eggs/
+dist/
+build/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+
+# wandb / tensorboard logs
+wandb/
+runs/
+*.tfevents.*
+
+# Import cleanup
+__MACOSX/
+._*
+.ipynb_checkpoints/
+.env
+.env.*
